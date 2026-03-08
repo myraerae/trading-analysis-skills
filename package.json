@@ -1,0 +1,20 @@
+{
+  "name": "trading-analysis-skills",
+  "version": "1.0.0",
+  "description": "Installer for trading-analysis-skills: copies openclaw/skills into a target directory so you can npx-install the skills",
+  "main": "bin/cli.js",
+  "bin": {
+    "trading-analysis-skills": "bin/cli.js"
+  },
+  "files": [
+    "openclaw/skills",
+    "bin",
+    "README.md"
+  ],
+  "keywords": ["claw","skill","crypto","stocks","skills"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  }
+}
